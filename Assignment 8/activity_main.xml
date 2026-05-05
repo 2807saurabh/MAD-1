@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Registration Form"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textSize="14sp"
+            android:textColor="#333"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter full name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="14sp"
+            android:textColor="#333"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Phone -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textSize="14sp"
+            android:textColor="#333"/>
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter phone number"
+            android:inputType="phone"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course"
+            android:textSize="14sp"
+            android:textColor="#333"/>
+
+        <EditText
+            android:id="@+id/etCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter course name"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address  (Long Press for Contextual Menu)"
+            android:textSize="14sp"
+            android:textColor="#333"/>
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter address"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:gravity="top"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes"
+            android:textSize="14sp"
+            android:textColor="#333"/>
+
+        <EditText
+            android:id="@+id/etNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter any notes"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:gravity="top"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:backgroundTint="#1A237E"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Options (Popup Menu)"
+            android:backgroundTint="#E65100"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Contextual Action Menu Button -->
+        <Button
+            android:id="@+id/btnActionMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Long Press for Action Menu"
+            android:backgroundTint="#00796B"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Result -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#1A237E"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</ScrollView>
