@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="20dp"
+    android:background="@color/card_bg">
+
+    <EditText android:id="@+id/et_goal_title"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:hint="Goal Title *" android:textColor="#FFFFFF"
+        android:textColorHint="#606080" android:background="@drawable/card_rounded"
+        android:padding="12dp" android:layout_marginBottom="12dp"/>
+
+    <EditText android:id="@+id/et_goal_desc"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:hint="Description" android:textColor="#FFFFFF"
+        android:textColorHint="#606080" android:background="@drawable/card_rounded"
+        android:padding="12dp" android:layout_marginBottom="12dp"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginBottom="12dp">
+        <EditText android:id="@+id/et_goal_target"
+            android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+            android:hint="Target (e.g. 100)" android:inputType="number"
+            android:textColor="#FFFFFF" android:textColorHint="#606080"
+            android:background="@drawable/card_rounded" android:padding="12dp"
+            android:layout_marginEnd="8dp"/>
+        <EditText android:id="@+id/et_goal_unit"
+            android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+            android:hint="Unit (%, problems...)"
+            android:textColor="#FFFFFF" android:textColorHint="#606080"
+            android:background="@drawable/card_rounded" android:padding="12dp"/>
+    </LinearLayout>
+
+    <EditText android:id="@+id/et_goal_date"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:hint="Target Date (DD/MM/YYYY)" android:textColor="#FFFFFF"
+        android:textColorHint="#606080" android:background="@drawable/card_rounded"
+        android:padding="12dp"/>
+</LinearLayout>

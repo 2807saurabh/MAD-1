@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="20dp"
+    android:background="@color/card_bg">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Day" android:textColor="#B0B0C8" android:textSize="12sp"
+        android:layout_marginBottom="4dp"/>
+    <Spinner android:id="@+id/spinner_day"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:background="@drawable/card_rounded" android:padding="8dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText android:id="@+id/et_time_slot"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:hint="Time (e.g. 09:00 AM)" android:textColor="#FFFFFF"
+        android:textColorHint="#606080" android:background="@drawable/card_rounded"
+        android:padding="12dp" android:layout_marginBottom="12dp"/>
+
+    <EditText android:id="@+id/et_schedule_subject"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:hint="Subject / Topic" android:textColor="#FFFFFF"
+        android:textColorHint="#606080" android:background="@drawable/card_rounded"
+        android:padding="12dp" android:layout_marginBottom="12dp"/>
+
+    <EditText android:id="@+id/et_duration_mins"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:hint="Duration (minutes, e.g. 60)" android:inputType="number"
+        android:textColor="#FFFFFF" android:textColorHint="#606080"
+        android:background="@drawable/card_rounded" android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Color" android:textColor="#B0B0C8" android:textSize="12sp"
+        android:layout_marginBottom="4dp"/>
+    <Spinner android:id="@+id/spinner_color"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:background="@drawable/card_rounded" android:padding="8dp"/>
+</LinearLayout>

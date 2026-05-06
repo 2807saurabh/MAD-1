@@ -1,0 +1,3 @@
+-keep class com.placementpro.models.** { *; }
+-keep class com.github.mikephil.** { *; }
+-dontwarn okhttp3.**

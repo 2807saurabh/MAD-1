@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bg_primary" android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar_quiz"
+        android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+        android:background="@color/bg_primary"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:padding="16dp">
+        <TextView android:id="@+id/tv_question_no"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="Q1/10" android:textColor="@color/accent_color" android:textSize="14sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/tv_quiz_score"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Score: 0" android:textColor="@color/accent_green" android:textSize="14sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/tv_timer"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="20s" android:textColor="@color/accent_secondary" android:textSize="14sp"
+            android:textStyle="bold" android:layout_marginStart="16dp"/>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/pb_timer"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent" android:layout_height="6dp"
+        android:max="100" android:progress="100"
+        android:progressTint="@color/accent_color"
+        android:layout_marginHorizontal="16dp" android:layout_marginBottom="16dp"/>
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"
+        android:layout_margin="16dp" style="@style/CardStyleDark">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical" android:padding="24dp" android:gravity="center">
+            <TextView android:id="@+id/tv_question"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Question appears here"
+                android:textColor="@color/text_primary" android:textSize="18sp"
+                android:textStyle="bold" android:gravity="center" android:lineSpacingMultiplier="1.4"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+        <Button android:id="@+id/btn_option_a"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="A. Option" android:background="@drawable/card_rounded"
+            android:textColor="@color/text_primary" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btn_option_b"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="B. Option" android:background="@drawable/card_rounded"
+            android:textColor="@color/text_primary" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btn_option_c"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="C. Option" android:background="@drawable/card_rounded"
+            android:textColor="@color/text_primary" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btn_option_d"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="D. Option" android:background="@drawable/card_rounded"
+            android:textColor="@color/text_primary" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btn_next_question"
+            android:layout_width="match_parent" android:layout_height="52dp"
+            android:text="Next Question →" android:background="@drawable/gradient_accent"
+            android:textColor="@color/text_primary" android:textStyle="bold"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

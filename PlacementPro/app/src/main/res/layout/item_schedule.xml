@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="16dp" app:cardElevation="4dp"
+    app:cardBackgroundColor="#1E1E2E">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View android:id="@+id/view_color_strip"
+            android:layout_width="6dp" android:layout_height="match_parent"
+            android:background="#6C63FF"/>
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical">
+                <TextView android:id="@+id/tv_schedule_day"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="#6C63FF" android:textSize="12sp" android:textStyle="bold"
+                    android:background="#1A6C63FF" android:paddingHorizontal="8dp"
+                    android:paddingVertical="2dp"/>
+                <TextView android:id="@+id/tv_schedule_time"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="#FFD166" android:textSize="12sp"
+                    android:layout_marginStart="8dp"/>
+                <TextView android:id="@+id/tv_schedule_duration"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:textColor="#B0B0C8" android:textSize="11sp"
+                    android:layout_marginStart="8dp"/>
+            </LinearLayout>
+
+            <TextView android:id="@+id/tv_schedule_subject"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textColor="#FFFFFF" android:textSize="16sp" android:textStyle="bold"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <ImageButton android:id="@+id/btn_delete_schedule"
+            android:layout_width="40dp" android:layout_height="match_parent"
+            android:src="@android:drawable/ic_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:tint="#FF4757"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

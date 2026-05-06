@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_dialog_add_schedule.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/dialog_add_schedule.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_dialog_add_task.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/dialog_add_task.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_dialog_add_goal.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/dialog_add_goal.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_item_goal.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/item_goal.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_progress.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_progress.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.placementpro.app-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/drawable_progress_bar_style.xml.flat",
+        "source": "com.placementpro.app-main-35:/drawable/progress_bar_style.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/menu_dashboard_menu.xml.flat",
+        "source": "com.placementpro.app-main-35:/menu/dashboard_menu.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_subject_detail.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_subject_detail.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_goal.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_goal.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_task.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_task.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_subjects.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_subjects.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_splash.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/drawable_gradient_accent.xml.flat",
+        "source": "com.placementpro.app-main-35:/drawable/gradient_accent.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_quiz.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_schedule.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_schedule.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_auth.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_item_task.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/drawable_gradient_dark_bg.xml.flat",
+        "source": "com.placementpro.app-main-35:/drawable/gradient_dark_bg.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_leaderboard.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_leaderboard.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_item_subject.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/item_subject.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-xhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/drawable_card_rounded.xml.flat",
+        "source": "com.placementpro.app-main-35:/drawable/card_rounded.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_activity_dashboard.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/drawable_btn_accent.xml.flat",
+        "source": "com.placementpro.app-main-35:/drawable/btn_accent.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/drawable_btn_outline.xml.flat",
+        "source": "com.placementpro.app-main-35:/drawable/btn_outline.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/layout_item_schedule.xml.flat",
+        "source": "com.placementpro.app-main-35:/layout/item_schedule.xml"
+    },
+    {
+        "merged": "com.placementpro.app-merged_res-33:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.placementpro.app-main-35:/mipmap-xhdpi/ic_launcher_round.xml"
+    }
+]
