@@ -1,0 +1,14 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2">
+
+    <Button android:id="@+id/b1" android:text="Grid 1" />
+    <Button android:id="@+id/b2" android:text="Grid 2" />
+    <Button android:id="@+id/b3" android:text="Grid 3" />
+    <Button android:id="@+id/b4" android:text="Grid 4" />
+
+</GridLayout>

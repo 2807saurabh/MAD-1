@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:padding="16dp">
+
+    <Button android:id="@+id/btnFrame" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="Frame Layout" />
+    <Button android:id="@+id/btnGrid" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="Grid Layout" />
+    <Button android:id="@+id/btnHorizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="Horizontal" />
+    <Button android:id="@+id/btnList" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="List View" />
+    <Button android:id="@+id/btnRelative" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="Relative Layout" />
+    <Button android:id="@+id/btnTable" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="Table Layout" />
+    <Button android:id="@+id/btnVerticle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="Vertical Layout" />
+
+</GridLayout>
